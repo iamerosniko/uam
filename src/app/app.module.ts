@@ -16,6 +16,7 @@ import { ServicesComponent } from './home/btam/services/services.component';
 import { AttributesComponent } from './home/btam/attributes/attributes.component';
 import { SetgroupaccessComponent } from './home/btss/setgroupaccess/setgroupaccess.component';
 import { SetuseraccessComponent } from './home/btss/setuseraccess/setuseraccess.component';
+import { ReportsComponent } from './reports/reports.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SetuseraccessComponent } from './home/btss/setuseraccess/setuseraccess.
     ServicesComponent,
     AttributesComponent,
     SetgroupaccessComponent,
-    SetuseraccessComponent
+    SetuseraccessComponent,
+    ReportsComponent
   ],
   imports: [
     BrowserModule,
