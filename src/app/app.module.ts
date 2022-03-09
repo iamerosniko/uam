@@ -17,6 +17,10 @@ import { AttributesComponent } from './home/btam/attributes/attributes.component
 import { SetgroupaccessComponent } from './home/btss/setgroupaccess/setgroupaccess.component';
 import { SetuseraccessComponent } from './home/btss/setuseraccess/setuseraccess.component';
 import { ReportsComponent } from './reports/reports.component';
+import { DatabaseinfoComponent } from './home/applications/databaseinfo/databaseinfo.component';
+import { CicdInfoComponent } from './home/applications/cicd-info/cicd-info.component';
+import { ApplicationCiComponent } from './home/applications/application-ci/application-ci.component';
+import { ApplicationOwnersComponent } from './home/applications/application-owners/application-owners.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,11 @@ import { ReportsComponent } from './reports/reports.component';
     AttributesComponent,
     SetgroupaccessComponent,
     SetuseraccessComponent,
-    ReportsComponent
+    ReportsComponent,
+    DatabaseinfoComponent,
+    CicdInfoComponent,
+    ApplicationCiComponent,
+    ApplicationOwnersComponent,
   ],
   imports: [
     BrowserModule,
